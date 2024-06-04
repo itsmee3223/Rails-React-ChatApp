@@ -25,6 +25,9 @@ bundle install
 
 ### 3. Install Node.js Frontend Dependencies
 ```bash
+cd client
+```
+```bash
 # Using npm
 npm install
 
@@ -33,7 +36,7 @@ yarn install
 ```
 
 ### 4. Running DB migration
-```shell
+```bash
 rails db:migrate
 ```
 
@@ -48,6 +51,8 @@ rails server
 ### 2. Run React Server
 See in the terminal log what port is running and you can open the browser for the app
 ```bash
+cd client
+
 # Using npm
 npm run dev
 
